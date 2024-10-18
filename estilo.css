@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "Bold";
+    src: url(font/Formula1-Bold.otf);
+}
+
+@font-face {
+    font-family: "Normal";
+    src: url(font/Formula1-Regular.otf);
+}
+
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Normal";
+
+}
+
+.preto{
+    background-color: black;
+    height: 18px;
+}
+
+.cabe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 70px;
+}
+
+.cabe img{
+    height: 105px;
+}
+
+.cabe a{
+    font-family: "Normal";
+    margin: 0px ;
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+}
+
+.wel{
+    font-size: 50px;
+    font-family: "Normal";
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+}
+
+.f1{
+    font-size: 170px;
+    font-family: "Normal";
+    display: flex;
+    justify-content: center;
+    margin: 20px 160px 180px 160px;
+
+}
+
+.c{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundoum{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.fundoum p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 90px 250px ;
+    font-family: "Normal";
+}
+
+.fundoum .geral img{
+    height: 105px;
+    padding: 70px 1300px 0 0 ;
+}
+
+.carro{
+    margin-top: -260px;
+}
+
+.fundoum button{
+    background-color: black;
+}
+
+.sobrep{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+.sobrep a{
+    height: 70px;
+    margin-top: -900px;
+    margin-left: 260px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+
+.quadrado {
+    font-size: 23px;
+    font-family: "Normal";
+    color: white;
+    background-image: url(img/Group\ 24.png);
+    padding: 20px 35.5px;
+    margin-right: 70px;
+}
+
+.bt{
+    display: flex;
+    justify-content: center;
+    width: 1430px;
+}
+
+.conheca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 70px;
+    font-size: 40px;
+    
+}
+
+.conheca img{
+    height: 105px;
+}
+
+.conheca p{
+    font-family: "Bold";
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.uequipes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.curi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 70px;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+}
+
+.curi img{
+    height: 105px;
+}
+
+.fim{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 50px;
+}
+.cur{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-family: "Normal";
+    color: white;
+    padding: 0px 80px;
+    text-align: justify;
+    align-items: center;
+}
+
+.cur img{
+    margin-right: 30px;
+}
+
+a{
+   
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+footer{
+    padding-bottom: 80px;
+}
+
+.uequipes a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.equipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    padding: 10px 70px;
+    
+}
+
+.equipes a{
+    margin: 0px 10px
+}
+
+.uequipes a {
+   margin: 0px 10px;
+}
+
+.uequipes{
+    padding: 0px 70px;
+}
+
+.links a{
+    padding: 0px 70px;
+}
